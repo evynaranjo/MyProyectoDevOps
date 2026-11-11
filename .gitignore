@@ -1,0 +1,41 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editores y herramientas locales
+.vscode/
+.idea/
+*.swp
+
+# Archivos temporales y registros
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Credenciales y configuración privada
+.env
+.env.*
+!.env.example
+
+# Python / backend
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js / frontend
+node_modules/
+dist/
+build/
+coverage/
+
+# Archivos de base de datos locales y respaldos
+*.sqlite3
+*.db
+*.dump
+*.backup
+
+# Archivos comprimidos generados
+*.zip
