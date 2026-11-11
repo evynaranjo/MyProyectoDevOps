@@ -2,8 +2,7 @@
 
 Repositorio de práctica para aprender a organizar un proyecto de desarrollo y aplicar conceptos básicos de Git, GitHub y DevOps.
 
-## Objetivo
-Organizar un proyecto en áreas de backend, frontend, base de datos, documentación, recursos gráficos y automatización.
+
 
 ## Estructura
 
@@ -37,4 +36,4 @@ En `.github/workflows/verificar-estructura.yml` se incluye una comprobación bá
 Estructura inicial de práctica. No contiene todavía una aplicación funcional.
 
 ## Licencia
-Este repositorio utiliza la licencia MIT. Consulta `LICENCE` y reemplaza el marcador del titular de los derechos de autor antes de publicarlo como proyecto propio.
+Este repositorio utiliza la licencia MIT.
