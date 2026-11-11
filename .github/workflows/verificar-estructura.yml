@@ -1,0 +1,25 @@
+name: Verificar estructura del repositorio
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el codigo
+        uses: actions/checkout@v4
+      - name: Comprobar carpetas y archivos principales
+        shell: bash
+        run: |
+          test -d backend
+          test -d frontend
+          test -d database
+          test -d docs
+          test -d images
+          test -d .github/workflows
+          test -f README.md
+          test -f LICENCE
+          test -f .gitignore
+          echo 'Estructura correcta'
